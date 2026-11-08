@@ -1,0 +1,36 @@
+# Node & Frontend dependencies and builds
+node_modules/
+.svelte-kit/
+build/
+dist/
+.vite/
+
+# Rust & Tauri builds
+target/
+src-tauri/target/
+**/*.rs.bk
+*.pdb
+rustc-ice-*.txt
+**/mutants.out*/
+
+# Logs and environment
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+!.env.example
+
+# Temporary and test assets
+*.tmp
+assets/test.png
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/*
+!.vscode/extensions.json
